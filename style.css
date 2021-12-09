@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Kanit', sans-serif;
+    background-image: url('img/background.png');
+    color: #2F5075;
+}
+
+#menutop{
+    background-color: #2F5075;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.7%
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+/*Fin de la partie css du menutop.php */
+
+/*Partie css du accueil.php */
+
+#banderole{
+    padding: auto;
+    margin: auto;
+    height: 50px;
+    
+    text-align: center;
+    padding-top: 0.6%;
+    color: #2F5075;
+
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Fin de la partie css du accueil.php */
+
+
+#head-title {
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.boite {
+    padding: 30px;
+    margin: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    align-items: center;
+}
+h1 {
+    font-weight: 900;
+    margin-top: 15px;
+
+    font-size: 20px;
+}
+.article {
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.carre {
+    width: 340px;
+    height: 290px;
+
+    box-shadow: 12px 12px 2px 1px #2F5075;
+}
+footer {
+    background-color: #2F5075;
+    color: white;
+    padding: 35px 0px;
+    text-align: center;
+    font-size: small;
+}
+
+#formation {
+    padding: 30px;
+    margin: 20px 50px;
+   
+  
+    gap: 20px 20px;
+    align-items: center;
+}
