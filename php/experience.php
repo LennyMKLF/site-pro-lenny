@@ -1,14 +1,7 @@
 <?php
-
-    require_once 'function.php';
-
-    $content=\file_get_contents('data/experience.yaml');
-    $data=yaml_parse($content);
-
-    
 ?>
 <br>
-<br>
+
 <center>
 <h2>Expériences professionnelles</h2>
 <br>    
@@ -32,5 +25,5 @@
            <p>Sport Collectif</p>
             <p>L'informatique !</p>
         </ul>
-       
+    
 <center>

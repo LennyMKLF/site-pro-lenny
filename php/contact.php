@@ -1,22 +1,23 @@
-<center>
-<h1>Contact</h1>
-<HTML>
-<HEAD>
-<TITLE>E-Mail Formulaire</TITLE>
-</HEAD>
-<BODY>
-<FORM method="POST" action="envoi.php">
-<P>Votre nom:<br>
-<INPUT type="text" name="nom" size=30>
-</p>
-<P>Votre adresse E-Mail:<br>
-<INPUT type="text" name="email" size=30>
-</p>
-<P>Message:<br>
-<textarea name="message" cols=30 rows=5></textarea>
-</p><INPUT type="submit" value="Envoyer">
-</FORM>
-</BODY>
-</HTML>
-</center>
+<?php
+echo '<center>';
+echo '<h1>Contact</h1>';
+echo '<HTML>';
+echo '<HEAD>';
+echo '<TITLE>E-Mail Formulaire</TITLE>';
+echo '</HEAD>';
+echo '<BODY>';
+echo '<FORM method="POST" action="php/envoimail.php">';
+echo '<P>Votre nom:<br>';
+echo '<INPUT type="text" name="nom" size=30>';
+echo '</p>';
+echo '<P>Votre adresse E-Mail:<br>';
+echo '<INPUT type="text" name="email" size=30>';
+echo '</p>';
+echo '<P>Message:<br>';
+echo '<textarea name="message" cols=30 rows=5></textarea>';
+echo '</p><INPUT type="submit" value="Envoyer">';
+echo '</FORM>';
+echo '</BODY>';
+echo '</HTML>';
+echo '</center>';
 

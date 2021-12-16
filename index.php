@@ -25,6 +25,13 @@
 			echo '</section>';
 		}	
 		?> 
+	<footer>
+        <p>Copyright © 2021 - Lenny MIKALEFF, tout droits réservés.</p>
+    </footer>
+
+<script>
+window.location.href='#accueil';
+</script>
 
 	</body>
 

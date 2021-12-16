@@ -7,7 +7,7 @@
      <br>
     <h1>Informations personnelles</h1>
         <ul>
-            <p>07 71 13 56 **<br></p>
+            <p>07 71 13 56 04<br></p>
                 lenny.mikaleff@sts-sio-caen.info<br> 
                <p> 2b Rue Docteur Laennec<br></p>
                 <p> Permis en préparation</p>
@@ -40,25 +40,23 @@
 </div>
     <div class="boite">
         <div class="article">
-            <a target="_new" href="https://www.lyceetellier.fr/"><img
-                    class="carre" src="TELLIER.png" alt="article"></a>
+            <a target="_blank" href="https://www.lyceetellier.fr/"><img
+                    class="carre" src="img/TELLIER.png" alt="article"></a>
             <h1>Lycée Charles Tellier</h1>
         </div>
         <div class="article">
-            <a target="_new" href="https://www.supavenir.fr/"><img 
-                    class="carre" src="Supavenir.png" alt="article"></a>
+            <a target="_blank" href="https://www.supavenir.fr/"><img 
+                    class="carre" src="img/Supavenir.png" alt="article"></a>
             <h1>SupaVenir</h1>
         </div>
         <div class="article">
-            <a target="_new"
+            <a target="_blank"
             href="https://www.instagram.com/lenny_mklf"><img 
-            class="carre" src="img/logo-instagram-bleu.png" alt="article"></a>
+            class="carre" src="img/logo-instagram-gris.png" alt="article"></a>
             <h1>Instagram</h1>
         </div>
     </div>
-    <footer>
-        <p>©Copyright 2021 - Lenny MIKALEFF, tout droits réservés.</p>
-    </footer>
+ 
 </body>
 
 </html>
